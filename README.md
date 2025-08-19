@@ -1,2 +1,9 @@
-# nextflow101
-NextFlow 101
+# Next Flow 101
+
+### To use
+
+### Troubleshooting
+
+### To cite
+
+### Further resources
