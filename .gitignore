@@ -21,7 +21,7 @@ dag.png
 dag.svg
 *.dag.*
 
-# Data directories (raw and processed)
+# Data directories content, but not directories themselves
 data/*/*
 !data/*/
 
@@ -90,3 +90,4 @@ temp/
 !LICENSE.md
 !exercises/*/README.md
 !solutions/*/README.md
+!*.gitkeep
