@@ -14,12 +14,12 @@
     conda activate nextflow101
     ```
 
-4. Download the BBBC010 dataset from [https://bbbc.broadinstitute.org/BBBC010](https://bbbc.broadinstitute.org/BBBC010), more specifically:
+4. Download the [BBBC010 dataset](https://bbbc.broadinstitute.org/BBBC010), more specifically:
 
 * The original images provided as [BBBC010_v2_images.zip (70 MB)](https://data.broadinstitute.org/bbbc/BBBC010/BBBC010_v2_images.zip)
 * The binary segmentation masks for each object provided as [BBBC010_v1_foreground_eachworm.zip (2.7 MB)](https://data.broadinstitute.org/bbbc/BBBC010/BBBC010_v1_foreground_eachworm.zip)
 
-5. Place the two .zip in the [data/raw] subfolder, and unzip them - that will create two directories ([BBBC010_v2_images], 200 files, and [BBBC010_v1_foreground_eachworm], 1407 files) 
+5. Place the two .zip in the `data/raw` subfolder, and unzip them - that will create two directories (`BBBC010_v2_images`, 200 files, and `BBBC010_v1_foreground_eachworm`, 1407 files) 
 
 6. Complete and run the workflows in the different subfolders:
     ```
