@@ -1,0 +1,92 @@
+# NextFlow files and directories
+work/
+.nextflow/
+.nextflow.*
+.nextflow.log*
+.nextflow.pid
+.nextflow.history
+*.nextflow.log*
+
+# NextFlow reports and traces
+*.html
+*.trace
+*.txt
+*.timeline
+*.report
+trace.txt
+report.html
+timeline.html
+dag.dot
+dag.png
+dag.svg
+*.dag.*
+
+# Data directories (raw and processed)
+data/*/*
+!data/*/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+*.ipynb_checkpoints
+
+# Mamba/Conda environments (if created locally)
+envs/*/
+.conda/
+.mamba/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+*.swp
+*.swo
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+.project
+.pydevproject
+.settings/
+*.sublime-*
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.log
+tmp/
+temp/
+
+# Compressed files (usually data)
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Image files in root (all data should be in the data folder)
+/*.tif
+/*.tiff
+/*.png
+/*.jpg
+/*.jpeg
+
+# Keep important markdown files
+!README.md
+!LICENSE.md
+!exercises/*/README.md
+!solutions/*/README.md
