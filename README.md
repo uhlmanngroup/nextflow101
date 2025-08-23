@@ -1,4 +1,4 @@
-# Next Flow 101
+# NextFlow 101
 
 ### To use
 
