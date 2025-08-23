@@ -7,6 +7,7 @@ dependencies:
   - nextflow>=23.10.0
   - numpy
   - scikit-image
+  - scikit-learn
   - tifffile
   - pandas
   - matplotlib

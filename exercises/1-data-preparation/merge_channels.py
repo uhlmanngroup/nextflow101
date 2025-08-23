@@ -25,7 +25,7 @@ def merge_channels(well_id, channel_files):
     channels = []
     for file_path in sorted_files:
         img = io.imread(file_path)
-        print(f"Reading {file_path}: {img.shape}, {img.dtype}")
+        print(f"Reading {file_path} ({img.shape}, {img.dtype})")
         channels.append(img)
 
     # Stack channels into an H x W x N image

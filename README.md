@@ -2,11 +2,11 @@
 
 ### To use
 
-1. Have mamba and git installed 
+1. Have [mamba](https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html), [git](https://git-scm.com/downloads), and [Docker](https://www.docker.com/) installed 
 
 2. Create conda environment from yaml file:
     ```
-    mamba env create -f nextflow101-env.yml
+    mamba env create -f nextflow101_env.yml
     ```
 
 3. Activate environment:
