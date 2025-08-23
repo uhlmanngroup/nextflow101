@@ -2,7 +2,7 @@
 
 ### To use
 
-1. Have [mamba](https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html), [git](https://git-scm.com/downloads), and [Docker](https://www.docker.com/) installed 
+1. Have [mamba](https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html) and [git](https://git-scm.com/downloads) installed
 
 2. Create conda environment from yaml file:
     ```
@@ -29,6 +29,20 @@
 
 ### Troubleshooting
 
+
+
 ### To cite
 
+If you use or refer to this tutorial, please acknowledge it as follows:
+
+Uhlmann, V. (2025) NextFlow 101 Tutorial. github.com/uhlmanngroup/nextflow101
+
 ### Further resources
+
+* GloBIAS Seminar Series: NextFlow for BioImage Analysis by Christian Tischer, Tong Li, Miguel Ibarra and Tim-Oliver Buchholz, [available on YouTube](https://youtu.be/xjM_zy1RYQQ?si=8g3yRCdqWxi-0LkY).
+* Minimal Nextflow OME-Zarr workflow from Tong Li, [available on GitHub)(https://github.com/BioImageTools/ome-zarr-image-analysis-nextflow).
+
+### Acknowledgements
+Ignacio Arganda-Carreras (University of the Basque Country, Spain), Anna Klemm (Scilifelab & Uppsala University, Sweden), Perrine Paul-Gilloteaux (University of Nantes, France), and Christian Tischer (EMBL Heidelberg, Germany) are to be thanked for prompting the creation of this tutorial in the context of the [2025 EMBO Practical Course on Advanced methods in bioimage analysis](https://www.embl.org/about/info/course-and-conference-office/events/bia25-01/).
+
+
