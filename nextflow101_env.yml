@@ -12,3 +12,4 @@ dependencies:
   - pandas
   - matplotlib
   - scipy
+  - seaborn

@@ -24,6 +24,7 @@ dag.svg
 # Data directories content, but not directories themselves
 data/*/*
 !data/*/
+data/*.*
 
 # Python
 __pycache__/
