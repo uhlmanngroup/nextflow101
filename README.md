@@ -54,7 +54,6 @@ If the `nextflow101_env.yml` fails to install for whichever reason, try to creat
     mamba install pandas
     mamba install matplotlib
     mamba install seaborn
-    ```
 
 Then close your terminal window, open a new one, and continue at point 3 of the "to use" instructions above.
 
