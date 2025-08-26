@@ -27,12 +27,13 @@ In this exercise, you will create a workflow for the [BBBC010 dataset](https://b
 
 ### How to go about this exercise
 
-* Open `data_preparation_workflow.nf` with your favourite code editor and complete the sections marked with `YOUR TURN! Replace the "..." below with your code!`
+* Open `data_preparation_workflow.nf` with your favourite code editor and complete the sections marked with `YOUR TURN! Replace the "..." below with your code!` - to do so, you will have to open an examine the provided Python scripts 
 
 * Once you have completed the missing pieces of code, run your workflow:
 	```
 	nextflow run data_preparation_workflow.nf
-    ```
+   ```
+
 * Debug when needed by
 	* inspecting the nextflow log: NextFlow saves an execution log in a `.nextflow.log` file that can be opened in a text editor
 
@@ -58,5 +59,5 @@ In this exercise, you will create a workflow for the [BBBC010 dataset](https://b
 
 ### Further resources
 
-* [NextFlow documentation](https://www.nextflow.io/docs/latest/script.html)
+* [Documentation on NextFlow scripts](https://www.nextflow.io/docs/latest/script.html)
 * [Test and debug your regular expressions with RegEx101](https://regex101.com/)
