@@ -25,7 +25,7 @@ workflow {
 
     // Combine features and labels from all images together into a data collection
     // YOUR TURN! Replace the "..." below with your code!
-    // Hint: call COMBINE_FEATURES_AND_LABELS and recover its outputs in a tuple
+    // Hint: use .collect() to gather all feature/label files into a list, then call COMBINE_FEATURES_AND_LABELS and recover its outputs in a tuple
     ... = ...
 
     // Train a decision tree to classify live from dead worms based on their features 
