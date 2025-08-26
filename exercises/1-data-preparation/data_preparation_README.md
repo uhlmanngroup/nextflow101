@@ -27,7 +27,7 @@ In this exercise, you will create a workflow for the [BBBC010 dataset](https://b
 
 ### How to go about this exercise
 
-* Open `data_preparation_workflow.nf` with your favourite code editor and complete the sections marked with `YOUR TURN! Replace the "..." below with your code!` - to do so, you will have to open an examine the provided Python scripts 
+* Open `data_preparation_workflow.nf` with your favourite code editor and complete the sections marked with `YOUR TURN! Replace the "..." below with your code!` - you may have to open an examine the provided Python scripts when prompted to do so!
 
 * Once you have completed the missing pieces of code, run your workflow:
 	```
