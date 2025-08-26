@@ -24,6 +24,8 @@
 * The original images provided as [BBBC010_v2_images.zip (70 MB)](https://data.broadinstitute.org/bbbc/BBBC010/BBBC010_v2_images.zip)
 * The binary segmentation masks for each object provided as [BBBC010_v1_foreground_eachworm.zip (2.7 MB)](https://data.broadinstitute.org/bbbc/BBBC010/BBBC010_v1_foreground_eachworm.zip)
 
+To understand what you will do in the exercises, it is advisable to spend a couple of minutes taking the time to read the description of what the BBBC010 is!
+
 6. Place the two .zip in the `data/raw` subfolder, and unzip them - that will create two directories (`BBBC010_v2_images`, 200 files, and `BBBC010_v1_foreground_eachworm`, 1407 files) 
 
 7. Move to the `exercises` subfolder:
