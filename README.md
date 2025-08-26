@@ -34,7 +34,6 @@
 8. Move to the specific exercise subfolder of your choice:
     ```
     cd N-my-favourite-exercise/
-
     ```
 
 9. Read the corresponding `README.md` and complete the exercise
@@ -56,6 +55,7 @@ If the `nextflow101_env.yml` fails to install for whichever reason, try to creat
     mamba install matplotlib
     mamba install seaborn
     ```
+
 Then close your terminal window, open a new one, and continue at point 3 of the "to use" instructions above.
 
 ### To cite
