@@ -62,7 +62,7 @@ process MERGE_CHANNELS {
     """
 }
 
-// Cleanup on successful workflow completion -- remove if you want to be able to debug!
+// Cleanup on successful completion
 workflow.onComplete {
     if (workflow.success) {
         println "Workflow completed successfully!"
