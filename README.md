@@ -47,7 +47,7 @@ To understand what you will do in the exercises, it is advisable to spend a coup
 ### Troubleshooting
 
 If, at step 3 above, the `nextflow101_env.yml` fails to install for whichever reason, try to create it manually with the following:
-    ```
+
     mamba create -n nextflow101-manual python=3.10
     source activate nextflow101-manual     
     
