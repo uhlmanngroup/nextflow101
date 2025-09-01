@@ -16,7 +16,7 @@
 
 4. Activate environment:
     ```
-    source activate nextflow101
+    mamba activate nextflow101
     ```
 
 5. Download the [BBBC010 dataset](https://bbbc.broadinstitute.org/BBBC010), more specifically:
@@ -26,7 +26,9 @@
 
 To understand what you will do in the exercises, it is advisable to spend a couple of minutes taking the time to read the description of what the BBBC010 is!
 
-6. Place the two .zip in the `data/raw` subfolder, and unzip them - that will create two directories (`BBBC010_v2_images`, 200 files, and `BBBC010_v1_foreground_eachworm`, 1407 files) 
+6. Place the two .zip in the `data/raw` subfolder, and unzip them into two sub directories with names matching the .zip file name (`BBBC010_v2_images`, 200 files, and `BBBC010_v1_foreground_eachworm`, 1407 files). 
+
+> Depending on your OS and setup, these folders will be created automatically when unzipping. If the unzipping operation does NOT create new subfolders and simply populates `data/raw` with individual files, you must manually create one subfolder `BBBC010_v2_images` and move the unzipped content of [BBBC010_v2_images.zip](https://data.broadinstitute.org/bbbc/BBBC010/BBBC010_v2_images.zip) into it, and then manually create a second subfolder `BBBC010_v1_foreground_eachworm` and move the unzipped content of [BBBC010_v1_foreground_eachworm.zip](https://data.broadinstitute.org/bbbc/BBBC010/BBBC010_v1_foreground_eachworm.zip) into it.
 
 7. Move to the `exercises` subfolder:
     ```
@@ -44,7 +46,7 @@ To understand what you will do in the exercises, it is advisable to spend a coup
 
 ### Troubleshooting
 
-If the `nextflow101_env.yml` fails to install for whichever reason, try to create it manually with the following:
+If, at step 3 above, the `nextflow101_env.yml` fails to install for whichever reason, try to create it manually with the following:
     ```
     mamba create -n nextflow101-manual python=3.10
     source activate nextflow101-manual     
@@ -59,6 +61,11 @@ If the `nextflow101_env.yml` fails to install for whichever reason, try to creat
 
 Then close your terminal window, open a new one, and continue at point 3 of the "to use" instructions above.
 
+If, at step 4 above, the `mamba activate` commands returns an error, try the following:
+```
+source activate nextflow101
+```
+
 ### To cite
 
 If you use or refer to this tutorial, please acknowledge it as follows:
@@ -67,6 +74,7 @@ Uhlmann, V. (2025) NextFlow 101 Tutorial. github.com/uhlmanngroup/nextflow101
 
 ### Further resources
 
+* NextFlow reference documentation, [https://www.nextflow.io/docs/latest/reference/](https://www.nextflow.io/docs/latest/reference/).
 * GloBIAS Seminar Series: NextFlow for BioImage Analysis by Christian Tischer, Tong Li, Miguel Ibarra and Tim-Oliver Buchholz, [available on YouTube](https://youtu.be/xjM_zy1RYQQ?si=8g3yRCdqWxi-0LkY).
 * Minimal Nextflow OME-Zarr workflow from Tong Li, [available on GitHub](https://github.com/BioImageTools/ome-zarr-image-analysis-nextflow).
 
